@@ -30,7 +30,7 @@ const RecentOrders = () => {
     datasets: [
       {
         label: 'Activity',
-        data: [0, 1, 3, 4, 2, 6, 8, , 7, 4, 2, 6, 8],
+        data: [0, 1, 3, 4, 2, 6,7, 4,8,5,3,0 ],
         borderColor: 'hsl(0, 4%, 51%)',
         backgroundColor: 'rgb(16, 16, 232)',
         fill: true,
@@ -164,6 +164,7 @@ const RecentOrders = () => {
             <div className="activity-chart">
               <Bar data={barData} />
             </div>
+            
             <div className="goals-dishes-menus">
               <div className="section">
                 <div className="gicon-list">
