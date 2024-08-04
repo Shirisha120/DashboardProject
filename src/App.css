@@ -128,31 +128,34 @@
 
 .bi.bi-basket2-fill {
   margin-top: 2cap;
-  margin-left: 1cap;
-  background-color: rgb(83, 110, 191);
-  color: blue;
+  margin-left: 0cap;
   padding: 5px;
+  font-size: 25px;
+  color: hsl(221, 70%, 70%);
 }
 
 .bi.bi-bag-check {
   margin-top: 2cap;
   margin-left: 1cap;
-  background-color: lightgreen;
   color: green;
+  font-size: 25px;
+
 }
 
 .bi.bi-bag-x {
   margin-top: 2cap;
   margin-left: 1cap;
-  background-color: lightcoral;
   color: red;
+  font-size: 25px;
+
 }
 
 .bi.bi-currency-dollar {
   margin-top: 2cap;
   margin-left: 1cap;
-  background-color: rgb(237, 134, 233);
   color: rgb(225, 32, 190);
+  font-size: 25px;
+
 }
 
 .label {
@@ -272,17 +275,24 @@
 .gicon-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
-.gicon-list i {
-  font-size: 20px;
-  color: #dde6ef;
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* Adjust this width as needed */
 }
-
+.icon-container i.glabel,
+.icon-container i:nth-child(2) {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 10px;
+}
 .arrow.right {
   margin-left: 250px;
-  padding-left: 5px;
+ 
 }
 
 .recent-orders {
