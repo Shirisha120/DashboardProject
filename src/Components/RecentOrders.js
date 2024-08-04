@@ -31,16 +31,12 @@ const RecentOrders = () => {
       {
         label: 'Activity',
         data: [0, 1, 3, 4, 2, 6, 8, , 7, 4, 2, 6, 8],
-        borderColor: 'rgba(75, 192, 192, 1)',
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'hsl(0, 4%, 51%)',
+        backgroundColor: 'rgb(16, 16, 232)',
         fill: true,
-        // tension: 0.1,
-        // borderWidth: 5
       },
     ],
   };
-
-
 
   const getStatusClass = (status) => {
     switch (status) {
@@ -61,7 +57,6 @@ const RecentOrders = () => {
       {
         data: [70, 30],
         backgroundColor: ['#36A2EB', 'rgb(155, 188, 227)'],
-        borderWidth: 0, // Optional: to remove the border of the segments
       },
     ],
   };
@@ -96,7 +91,7 @@ const RecentOrders = () => {
         <div className="header">
           <div className="search-container">
             <i class="bi bi-search"></i>
-            <input type="text" className="search-input" placeholder="Search"/>
+            <input type="text" className="search-input" placeholder="Search" />
           </div>
 
           <div className="user-info">
@@ -174,14 +169,16 @@ const RecentOrders = () => {
                 <div className="gicon-list">
                   <span class="icon-container">
                     <i className="bi bi-crosshair"></i>
-                    Goals
+                    <i className='glabel'>Goals</i>
                     <i className="arrow right"></i>
                   </span>
-                  <span ><i class="icon">🍔</i>Popular Dishes<i  class="arrow right"></i></span>
-                  <span class="icon-container" ><i class="bi bi-eject-fill"></i>Menus <i class="arrow right"></i></span>
+                  <span class="icon-container"><i class="bi bi-cup-hot-fill"></i><i>Popular Dishes</i><i class="arrow right"></i></span>
+                  <span class="icon-container" ><i class="bi bi-eject-fill"></i><i>Menus</i> <i class="arrow right"></i></span>
                 </div>
               </div>
             </div>
+            {/* <span class="icon-container"><i class="icon">🍔</i>Popular Dishes<i  class="arrow right"></i></span> */}
+
             <div className="recent-orders">
               <h6 className='h'>Recent Orders</h6>
               <table>
