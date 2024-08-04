@@ -1,0 +1,52 @@
+
+
+  {
+    "orders": [
+      {
+        "customer": "Wade Warren",
+        "image": "image2.jpeg",
+        "orderNo": "15478256",
+        "amount": "$124.00",
+        "status": "Delivered"
+      },
+      {
+        "customer": "Jane Cooper",
+        "image": "imagegrl.jpeg",
+        "orderNo": "48967586",
+        "amount": "$305.02",
+        "status": "Delivered"
+      },
+      {
+        "customer": "Guy Hawkins",
+        "image": "img3.jpeg",
+        "orderNo": "78985215",
+        "amount": "$45.88",
+        "status": "Cancelled"
+      },
+      {
+        "customer": "Kristin Watson",
+        "image": "2.jpeg",
+        "orderNo": "20965732",
+        "amount": "$65.00",
+        "status": "Pending"
+      },
+      {
+        "customer": "Cody Fisher",
+        "image": "user-avatar.jpg",
+        "orderNo": "95715620",
+        "amount": "$545.00",
+        "status": "Delivered"
+      },
+      {
+        "customer": "Savannah Nguyen",
+        "image": "2.jpeg",
+        "orderNo": "78514568",
+        "amount": "$128.20",
+        "status": "Delivered"
+      }
+    ]
+  }
+  
+
+  
+  
